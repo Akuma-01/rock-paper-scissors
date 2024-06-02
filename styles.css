@@ -1,0 +1,6 @@
+.humanChoice {
+    display: flex;
+    justify-content: space-around;
+    padding: 1000px;
+}
+
