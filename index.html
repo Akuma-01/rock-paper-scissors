@@ -4,15 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css"></style>
 </head>
 <body>
-    <div class="humanChoice">
-        <div><button id="rock" class="choices">Rock</button></div>
-        <div><button id="paper"class="choices">Paper</button></div>
-        <div><button id="scissors" class="choices">Scissors</button></div>
-    </div>
-      
+    <div id="body">
+        <div id="announce"></div>
+        <div class="scores">
+            <div class="scorebox">
+                <div id="humanLogo" class="text">Your Score</div>
+                <div id="humanScore" class="score">0</div>
+            </div>
+            <div id="img"><img src="https://i.pinimg.com/736x/a2/02/ff/a202ff44bf1c6d539eb954e916c796a2.jpg"></div>
+            <div class="scorebox">
+                <div id="compLogo" class="text">Computer Score</div>
+                <div id="compScore" class="score">0</div>
+            </div>
+        </div>
+        <div class="humanChoice">
+            <div><button id="rock" class="choices">Rock</button></div>
+            <div ><button id="paper" class="choices">Paper</button></div>
+            <div><button id="scissors" class="choices">Scissors</button></div>
+        </div>
+        <div class="reset"><button id="reset">Reset</button></div>
+    </div>      
 </body>
 </html>
